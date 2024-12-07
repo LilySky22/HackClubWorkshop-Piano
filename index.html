@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Hackclub Workshop Piano</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css" integrity="sha512-Oy18vBnbSJkXTndr2n6lDMO5NN31UljR8e/ICzVPrGpSud4Gkckb8yUpqhKuUNoE+o9gAb4O/rAxxw1ojyUVzg=="
+        crossorigin="anonymous" />
+    </head>
+
+    <body class="markdown-body">
+        <div>
+          <h1>Piano on the Web</h1>
+          <p>
+            Hey there! I have followed the HackClub Workshop on making a piano in the web! Hope you enjoy
+          </p>
+          <p>
+            Click the <kbd>S</kbd> key to make a middle C (or C4), then
+            <kbd>D</kbd> to make D4 and so on up until B4 with the <kbd>K</kbd> key.
+          </p>
+        </div>
+        <div id="piano">
+          <span class="key" id="C"><strong>C</strong></span>
+          <span class="key" id="D"><strong>D</strong></span>
+          <span class="key" id="E"><strong>E</strong></span>
+          <span class="key" id="F"><strong>F</strong></span>
+          <span class="key" id="G"><strong>G</strong></span>
+          <span class="key" id="A"><strong>A</strong></span>
+          <span class="key" id="B"><strong>B</strong></span>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.7.52/Tone.js"></script>
+        <script src="script.js"></script>
+
+        <section class="examples">
+            <h2>Why not try....</h2>
+            <h4>Ode to Joy: <br> E E F G G F E D C C D E E D D E E F G G F E D C C D E D C C</h4>
+            <h4>Twinkle Twinkle: <br> C C G G A A G F F E E D D C G G F F E E D G G F F E E D C G G A G F F E E D C</h4>
+            <h4>Or just have fun!</h4>
+        </section>
+      </body>
+</html>
